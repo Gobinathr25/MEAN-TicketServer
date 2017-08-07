@@ -2,12 +2,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gainsboro;
+    background-color:#f2f2f2;
 }
 .heading{
-    background-color:grey;
+    background-color:#000000;
     border-bottom: red  solid;
-    min-height: 70px;
+    min-height: 10px;
     margin: 0;
     padding: 0;
 }
@@ -19,14 +19,14 @@ body{
 #cmpname{
     float:left;
 }
-header h2{
+header h3{
     font-family: sans-serif;
     color: white;
     text-transform: uppercase;
 }
 header nav{
     float:right;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 header ul{
     padding:0;
@@ -36,9 +36,14 @@ header li{
     font-size: 15px;
     display: inline;
     color: white;
-    padding: 0 20px 0 10px ; 
+    padding: 0 10px 0px 10px ; 
     text-transform: uppercase;
+}
+
+li:hover{
+    color:red;
 }
 .highlight{
     color: red;
+    font-weight: bold;
 }
