@@ -7,19 +7,24 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="heading">
-    <div class="container">
-      <div id="cmpname">
-        <h3><span class="highlight">Ticket</span> Server</h3>
+  <header>
+     <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><span class="highlight">Ticket</span> Server</h3>
       </div>
-      <nav>
-          <ul>
-            <li>Home</li>
-            <li>Login</li>
-            <li>Register</li>
-            <li>Logout</li>
-          </ul>
-      </nav>
+      <div class="panel-body heading">
+          <nav>
+            <ul>
+              <li a href="#">Home</li>
+              <li routerLink="login">Login</li>
+              <li routerLink="register">Register</li>
+              <li a href="#">Logout</li>
+            </ul>
+          </nav>
+          <router-outlet></router-outlet>
+        </div>
+      </div>
     </div>
   </header>
   <section class="sectioncontent">
